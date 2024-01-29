@@ -11,4 +11,5 @@ export default defineConfig({
     },
   },
     assetsInclude: ["**/*.JPG"],
+    chunkSizeWarningLimit: 1000, // Set your desired limit in KB
 });
