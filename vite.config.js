@@ -3,7 +3,14 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/tailwind_vue_portfolio/',
+  base: "/tailwind_vue_portfolio/",
   plugins: [vue()],
-  assetsInclude: ["**/*.JPG"],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
+  build: {
+    assetsInclude: ["**/*.JPG"],
+  },
 });
