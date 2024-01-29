@@ -10,7 +10,5 @@ export default defineConfig({
       "@": "/src",
     },
   },
-  build: {
     assetsInclude: ["**/*.JPG"],
-  },
 });
