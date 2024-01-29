@@ -4,7 +4,8 @@ import Home from "./components/Home.vue";
 
 <template>
   <div>
-    <Home></Home>
+    <h1>Hello World!</h1>
+    <Home/>
   </div>
 </template>
 
